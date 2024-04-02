@@ -1,0 +1,21 @@
+COMMANDS                                                                   MKPWD
+
+NAME
+    mkpwd - make password
+
+INVOCATION
+    mkpwd [OPTION ...]
+
+DESCRIPTION
+    Generates a 10-character pseudo-random password suitable for typing on a
+    regular QWERTY keyboard.
+
+OPTIONS
+    -l L    Generate passwords of length L.
+
+    -n N    Generate N passwords.
+
+ISSUES
+    Passwords should be avoided in favour of passkeys where possible, which are
+    more secure than the former. When passwords are used, they should be long,
+    high-entropy, and unique — no password should be used twice.
